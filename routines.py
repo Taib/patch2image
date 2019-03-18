@@ -177,6 +177,45 @@ def get_image_generator(x_train_paths, y_train_paths, batch_size=1,
                     preproc_fn=prepro_fn, batch_size=batch_size, MAX_IM_QUEUE=MAX_IM_QUEUE)
 
 
+def fixed_patch_ids_creation(im_paths, gt_paths, spatial_shape=None,
+                            p_stride=16, shuffle=True, per_label=0, mask=None):    
+    all_ids  = []
+    mask = mask if mask is not None else 1
+    for im_path, gt_path in zip(im_paths, gt_paths) : 
+        if p_stride > 0:
+            ids = np.zeros(spatial_shape, dtype='int')
+            if ids.ndim == 2:
+                ids[0::p_stride, 0::p_stride] = 1   
+            else: 
+                ids[0::p_stride, 0::p_stride, 0::p_stride] = 1   
+            ids = ids * mask
+            ids = np.array(np.nonzero(ids)).T
+            n  = len(ids)
+            ap = np.c_[np.expand_dims([im_path]*n, -1), np.expand_dims([gt_path]*n, -1), ids] 
+            all_ids.extend(ap) 
+        
+        if per_label >0: 
+            # Adding samples based on the classes distribution.
+            _, gt = _process_pathnames(im_path, gt_path, resize=spatial_shape) 
+            cls_ids = []
+            for c in np.unique(gt):
+                search_area = np.nonzero((np.squeeze(gt) == c) * mask)
+                if len(search_area[0]) == 0:
+                    continue
+                search_area = np.array(search_area).T
+                search_area = np.random.permutation(search_area) 
+                cls_ids.append(search_area[:per_label])
+            cls_ids = np.concatenate([x for x in cls_ids])  
+            n  = len(cls_ids)
+            ap = np.c_[[im_path]*n, [gt_path]*n, cls_ids] 
+            all_ids.extend(ap) 
+
+    all_ids = np.array(all_ids)
+    if shuffle:
+        np.random.shuffle(all_ids)  
+    return all_ids 
+
+
 class Patch_Sequence(tf.keras.utils.Sequence):
     def __init__(self, fixed_patch_ids, p_shape=(32,32,3),
                 reader_fn=functools.partial(_process_pathnames),
