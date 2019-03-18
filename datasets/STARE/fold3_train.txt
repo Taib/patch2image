@@ -1,0 +1,17 @@
+im_name,gt_name
+images/im0001.ppm,label1/label1_im0001.ppm
+images/im0004.ppm,label1/label1_im0004.ppm
+images/im0005.ppm,label1/label1_im0005.ppm
+images/im0044.ppm,label1/label1_im0044.ppm
+images/im0077.ppm,label1/label1_im0077.ppm
+images/im0139.ppm,label1/label1_im0139.ppm
+images/im0162.ppm,label1/label1_im0162.ppm
+images/im0163.ppm,label1/label1_im0163.ppm
+images/im0235.ppm,label1/label1_im0235.ppm
+images/im0236.ppm,label1/label1_im0236.ppm
+images/im0239.ppm,label1/label1_im0239.ppm
+images/im0240.ppm,label1/label1_im0240.ppm
+images/im0255.ppm,label1/label1_im0255.ppm
+images/im0291.ppm,label1/label1_im0291.ppm
+images/im0319.ppm,label1/label1_im0319.ppm
+images/im0324.ppm,label1/label1_im0324.ppm

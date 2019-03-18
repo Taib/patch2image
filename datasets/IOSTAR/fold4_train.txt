@@ -1,0 +1,25 @@
+im_name,gt_name
+image/STAR 01_OSC.jpg,GT/STAR 01_OSC_GT.tif
+image/STAR 02_ODC.jpg,GT/STAR 02_ODC_GT.tif
+image/STAR 03_OSN.jpg,GT/STAR 03_OSN_GT.tif
+image/STAR 05_ODC.jpg,GT/STAR 05_ODC_GT.tif
+image/STAR 06_ODN.jpg,GT/STAR 06_ODN_GT.tif
+image/STAR 08_OSN.jpg,GT/STAR 08_OSN_GT.tif
+image/STAR 09_OSN.jpg,GT/STAR 09_OSN_GT.tif
+image/STAR 10_OSN.jpg,GT/STAR 10_OSN_GT.tif
+image/STAR 13_OSN.jpg,GT/STAR 13_OSN_GT.tif
+image/STAR 15_OSN.jpg,GT/STAR 15_OSN_GT.tif
+image/STAR 16_OSN.jpg,GT/STAR 16_OSN_GT.tif
+image/STAR 17_ODN.jpg,GT/STAR 17_ODN_GT.tif
+image/STAR 20_ODC.jpg,GT/STAR 20_ODC_GT.tif
+image/STAR 21_OSC.jpg,GT/STAR 21_OSC_GT.tif
+image/STAR 24_OSC.jpg,GT/STAR 24_OSC_GT.tif
+image/STAR 26_ODC.jpg,GT/STAR 26_ODC_GT.tif
+image/STAR 28_ODN.jpg,GT/STAR 28_ODN_GT.tif
+image/STAR 30_ODC.jpg,GT/STAR 30_ODC_GT.tif
+image/STAR 39_ODC.jpg,GT/STAR 39_ODC_GT.tif
+image/STAR 40_OSC.jpg,GT/STAR 40_OSC_GT.tif
+image/STAR 43_OSC.jpg,GT/STAR 43_OSC_GT.tif
+image/STAR 44_OSN.jpg,GT/STAR 44_OSN_GT.tif
+image/STAR 45_ODC.jpg,GT/STAR 45_ODC_GT.tif
+image/STAR 48_OSN.jpg,GT/STAR 48_OSN_GT.tif

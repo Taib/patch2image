@@ -1,0 +1,5 @@
+im_name,gt_name
+images/im0324.ppm,label1/label1_im0324.ppm
+images/im0291.ppm,label1/label1_im0291.ppm
+images/im0239.ppm,label1/label1_im0239.ppm
+images/im0255.ppm,label1/label1_im0255.ppm

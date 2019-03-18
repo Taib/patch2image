@@ -1,0 +1,10 @@
+im_name,gt_name
+images/02_h.jpg,OD_hfr/02_h.png
+images/03_g.jpg,OD_hfr/03_g.png
+images/04_dr.jpg,OD_hfr/04_dr.png
+images/04_h.jpg,OD_hfr/04_h.png
+images/07_h.jpg,OD_hfr/07_h.png
+images/09_h.jpg,OD_hfr/09_h.png
+images/11_g.jpg,OD_hfr/11_g.png
+images/12_dr.jpg,OD_hfr/12_dr.png
+images/12_h.jpg,OD_hfr/12_h.png

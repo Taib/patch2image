@@ -1,0 +1,7 @@
+im_name,gt_name,ma_name
+image/STAR 09_OSN.jpg,GT/STAR 09_OSN_GT.tif,OD/STAR 09_OSN_OD.png
+image/STAR 10_OSN.jpg,GT/STAR 10_OSN_GT.tif,OD/STAR 10_OSN_OD.png
+image/STAR 13_OSN.jpg,GT/STAR 13_OSN_GT.tif,OD/STAR 13_OSN_OD.png
+image/STAR 15_OSN.jpg,GT/STAR 15_OSN_GT.tif,OD/STAR 15_OSN_OD.png
+image/STAR 16_OSN.jpg,GT/STAR 16_OSN_GT.tif,OD/STAR 16_OSN_OD.png
+image/STAR 17_ODN.jpg,GT/STAR 17_ODN_GT.tif,OD/STAR 17_ODN_OD.png

@@ -1,0 +1,8 @@
+im_name,gt_name
+images/Image_04L.jpg,label1/Image_04L_1stHO.png
+images/Image_05R.jpg,label1/Image_05R_1stHO.png
+images/Image_05L.jpg,label1/Image_05L_1stHO.png
+images/Image_06R.jpg,label1/Image_06R_1stHO.png
+images/Image_06L.jpg,label1/Image_06L_1stHO.png
+images/Image_07R.jpg,label1/Image_07R_1stHO.png
+images/Image_07L.jpg,label1/Image_07L_1stHO.png

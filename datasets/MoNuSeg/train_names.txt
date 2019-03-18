@@ -1,0 +1,17 @@
+im_name,gt_name
+images/TCGA-AR-A1AK-01Z-00-DX1.tif,Annotations/TCGA-AR-A1AK-01Z-00-DX1.png
+images/TCGA-E2-A14V-01Z-00-DX1.tif,Annotations/TCGA-E2-A14V-01Z-00-DX1.png
+images/TCGA-A7-A13E-01Z-00-DX1.tif,Annotations/TCGA-A7-A13E-01Z-00-DX1.png
+images/TCGA-AR-A1AS-01Z-00-DX1.tif,Annotations/TCGA-AR-A1AS-01Z-00-DX1.png
+images/TCGA-HE-7130-01Z-00-DX1.tif,Annotations/TCGA-HE-7130-01Z-00-DX1.png
+images/TCGA-HE-7128-01Z-00-DX1.tif,Annotations/TCGA-HE-7128-01Z-00-DX1.png
+images/TCGA-HE-7129-01Z-00-DX1.tif,Annotations/TCGA-HE-7129-01Z-00-DX1.png
+images/TCGA-B0-5710-01Z-00-DX1.tif,Annotations/TCGA-B0-5710-01Z-00-DX1.png
+images/TCGA-18-5592-01Z-00-DX1.tif,Annotations/TCGA-18-5592-01Z-00-DX1.png
+images/TCGA-21-5786-01Z-00-DX1.tif,Annotations/TCGA-21-5786-01Z-00-DX1.png
+images/TCGA-49-4488-01Z-00-DX1.tif,Annotations/TCGA-49-4488-01Z-00-DX1.png
+images/TCGA-21-5784-01Z-00-DX1.tif,Annotations/TCGA-21-5784-01Z-00-DX1.png
+images/TCGA-G9-6362-01Z-00-DX1.tif,Annotations/TCGA-G9-6362-01Z-00-DX1.png
+images/TCGA-CH-5767-01Z-00-DX1.tif,Annotations/TCGA-CH-5767-01Z-00-DX1.png
+images/TCGA-G9-6363-01Z-00-DX1.tif,Annotations/TCGA-G9-6363-01Z-00-DX1.png
+images/TCGA-G9-6356-01Z-00-DX1.tif,Annotations/TCGA-G9-6356-01Z-00-DX1.png
