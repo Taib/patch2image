@@ -12,7 +12,7 @@ patch database, then fine-tunes it on the original full-sized images.
 
 ## Setup
 
-**Environment**: One or more multi-GPU node(s) with the following software/libraries installed:
+**Environment**: The following software/libraries are needed:
 - [TensorFlow 1.12.0](https://tensorflow.org)
 - [numpy 1.15.1](https://docs.scipy.org/doc/numpy/user/quickstart.html)  
 - [h5py 2.7.0](http://docs.h5py.org/en/stable/build.html#install)
