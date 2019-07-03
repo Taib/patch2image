@@ -2,7 +2,7 @@
 
 
 This repository contains the IPython code for the paper
-> Taibou Birgui Sekou, Moncef Hidane, Julien Olivier and Hubert Cardot. [*From Patch to Image Segmentation using Fully Convolutional Networks - Application to Retinal Images*](https://arxiv.org/abs/1904.03892). Submitted to Medical Image Analysis, 2019.
+> Taibou Birgui Sekou, Moncef Hidane, Julien Olivier and Hubert Cardot. [*From Patch to Image Segmentation using Fully Convolutional Networks - Application to Retinal Images*](https://arxiv.org/abs/1904.03892).
 
 Given a retinal image database and a fully convolutional network (FCN) `f`, this tool first pre-trains it on an on-the-fly generated 
 patch database, then fine-tunes it on the original full-sized images.
